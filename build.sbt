@@ -124,7 +124,7 @@ lazy val components = project.in(file("components"))
 // *******************************************************************************************************
 lazy val materialGen = project.in(file("material-gen"))
   .settings(
-    name := "merial-gen",
+    name := "material-gen",
     libraryDependencies ++= Seq(
       javaDeps.cmdOption,
       javaDeps.slf4jApi,
